@@ -10,7 +10,7 @@ spec:
     image: nginx
 ---
 apiVersion: v1
-kind: pod
+kind: Pod
 metadata:
   name: pod-2
   labels: 
