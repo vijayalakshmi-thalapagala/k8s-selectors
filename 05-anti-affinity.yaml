@@ -13,7 +13,7 @@ spec:
             values:
             - us-east-1b
           - key: project 
-            operator: In
+            operator: NotIn
             values:
             - amazon
 
