@@ -20,7 +20,7 @@ spec:
           - key: project
             operator: In
             values:
-            - roboshop
+            - roboshoping
       - weight: 10
         preference:
           matchExpressions:
