@@ -16,7 +16,11 @@ spec:
             operator: NotIn
             values:
             - amazon
-
   containers:
   - name: nginx
     image: nginx
+  tolerations:
+  - key: "hardware"
+    operator: "Equal"
+    value: "gpu"
+    effect: "NoExecute"
