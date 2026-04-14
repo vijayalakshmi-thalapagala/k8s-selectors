@@ -3,7 +3,7 @@ kind: Pod
 metadata: 
   name: pod-1
   labels: 
-  - database
+    tier: database
 spec:
   containers:
   - name: nginx
